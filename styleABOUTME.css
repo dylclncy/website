@@ -1,0 +1,201 @@
+
+@font-face {
+    font-family:"EAGLES";
+    src: url(NFLEAGLE.TTF);
+}
+
+@font-face {
+    font-family:"MEMCARD";
+    src: url(Bestioles.ttf);
+}
+
+@font-face {
+    font-family:"SURK";
+    src: url("FearFluid-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Scribble";
+    src: url(Scribble.ttf);
+}
+
+body  {
+    margin: 0;
+    padding: 0;
+    background-image: url('DYLAN.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fix background */
+    background-position: center center;
+}
+
+.Elogo {
+    position: absolute;
+    top: 3%;
+    left: 27%;
+    width: 15%;
+}
+
+pre{
+    font-family:'Times New Roman';
+    margin: auto;
+    font-weight: 10;
+    font-size: clamp(0rem, 1.3vw, 1rem);
+        color: aliceblue;
+        font-style: italic;
+        text-shadow: 2px 2px 4px black;
+}
+
+h1{
+    
+        font-family:'Times New Roman'; 
+        margin: auto;
+        font-weight: 10;
+        font-size: clamp(2rem, 7vw, 6.5rem);
+        color: aliceblue;
+        font-style: italic;
+        text-shadow: 1px 1px 2px black;
+
+}
+h2{
+    font-family:"MEMCARD";
+    font-size: clamp(1rem, 3.6vw, 3rem);
+    color: aliceblue;
+    text-shadow: 2px 2px 4px black;
+font-style: italic;
+text-shadow:
+      0 0 5px #fff,
+      0 0 10px rgb(154, 17, 8),
+      0 0 20px rgb(113, 6, 6),
+      0 0 40px rgb(95, 17, 17),
+      0 0 80px rgb(121, 24, 27);
+    padding: 20px;
+
+}
+
+
+h3{
+    font-family:"SURK";
+    font-size: clamp(1rem, 3.6vw, 3rem);
+    color: aliceblue;
+    text-shadow: 2px 2px 4px black;
+font-style: italic;
+background: linear-gradient(
+        90deg,
+        red, orange, yellow, green, blue, indigo, violet
+      );
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+
+h4{
+    font-family:"Scribble";
+    font-size: clamp(1rem, 3.6vw, 3rem);
+    color: aliceblue;
+    text-shadow: 2px 2px 4px black;
+font-style: italic;
+text-shadow:
+1px 1px 0 #ccc,
+2px 2px 0 #bbb,
+3px 3px 0 #aaa,
+4px 4px 0 #999,
+5px 5px 0 #888,
+6px 6px 0 #777,
+7px 7px 0 #666,
+8px 8px 0 #555,
+9px 9px 0 #444;
+}
+
+.Sandwich {
+    position: absolute;
+  top: 15.22%;
+  left: 86.11%;
+  width: 6.94%;
+}
+.Sunshine {
+    position: absolute;
+  top: 14.44%;
+  left: 92.01%;
+  width: 6.94%;
+}
+.Destijl {
+  position: absolute;
+  top: 60%;
+  left: 2%;
+  width: 10%;  
+}
+
+.Stupid {
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    width: 18%;
+}
+
+.GOBIRDS {
+    position: absolute;
+    top: 37%;
+    left: 37%;
+    width: 34%;
+    opacity: 80%;
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem; /* Adds spacing between children */
+      }
+
+    .Elogo {
+        top: 80%;
+        left: 78%;
+        width: 20%;
+    }
+
+    .Sandwich {
+        top: 5%;
+        left: 72%;
+        width: 15%;
+    }
+
+    .Sunshine {
+        top: 5%;
+        left: 86%;
+        width: 15%;
+    }
+
+    .Destijl {
+        top: 18%;
+        left: 80%;
+        width: 15%;
+    }
+
+    .Stupid {
+        top: 30%;
+        left: 70%;
+        width: 30%;
+    }
+
+    .GOBIRDS {
+        top: 100%;
+        left: 15%;
+        width: 80%;
+    }
+
+    h1, h2, h3, h4 {
+        text-align: center;
+    }
+
+    pre {
+        font-size: clamp(0.75rem, 3vw, 1rem);
+        padding: 0 1rem;
+        text-align: left;
+        line-height: 1.5;
+    white-space: pre-wrap; /* Wrap long lines */
+    word-wrap: break-word;
+    }
+
+}

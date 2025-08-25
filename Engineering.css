@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh
+  }
+  
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('oneofthegoodones.JPG');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: black; /* fallback */
+    z-index: -1;
+    pointer-events: none; /* allows clicks to pass through */
+  }
+  
+    h1, h2, h3, h4{
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 40;
+  margin: 50px 0 30px;
+  text-align: center;
+  font-size: clamp(2rem, 5vw, 7rem);
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+  }
+  h2, h3, h4{
+    font-size:clamp(2rem, 4vw, 7rem);
+  }
+  
+  .NERD{ position:absolute; top:0vh; left:20vw;  width:15vw; max-width:180px; }
+  .NERD2{ position:absolute; top:0vh; left:67vw;  width:15vw; max-width:180px; }
+
+  p{
+    font-weight: 40;
+  text-shadow: .5px .5px 1px rgb(255, 255, 255);
+  font-size: 1.5rem;
+  margin: 0px 100px 20px;
+  text-align: center;
+  }
+  h5{
+    font-weight: 40;
+  text-shadow: .5px .5px 1px rgb(255, 255, 255);
+  font-size: 1.1rem;
+  margin: -30px 25px 20px;
+  text-align: center;
+  font-style: italic;
+  }
+
+  @media screen and (max-width: 600px) {
+
+    body {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed; /* Fix background */
+      background-position: center center;               /* Still fills the screen */
+    }
+
+    p{
+      font-size: 1rem;
+      margin: -20px 10px 20px;
+    }
+
+
+    .NERD{ position:absolute; top:4vh; left:10vw;  width:15vw; max-width:200px; }
+  .NERD2{ position:absolute; top:4vh; left:75.5vw;  width:15vw; max-width:200px; }
+
+
+  }
+
+  .spacer {
+    height: 20000px;
+  }

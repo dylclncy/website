@@ -1,0 +1,80 @@
+body  {
+    margin: 0;
+    padding: 0;
+    min-height: auto; /* so page can scroll */
+    background-image: url('SNOW.JPG'); /* Replace with your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fix background */
+    background-position: center center;
+
+}
+
+
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px 0 30px;
+      text-align: center;
+      font-size: clamp(4rem, 8vw, 8rem);
+      color: aliceblue;
+      text-shadow: 1px 1px 2px black;
+      font-weight: 50;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+      text-align: Left;
+      font-size: clamp(.5rem, 2vw, 1rem);
+      color: aliceblue;
+      font-style: italic;
+      top: 100px;
+      left: 200px;
+      text-shadow: 1px 1px 2px black;
+    
+}
+
+ /* Style inputs with type="text", select elements and textareas */
+ input[type="text"], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ffffff; /* Custom border color */
+  border-radius: 0; /* Sharp corners */
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  background-color: transparent; /* Make background transparent */
+  font-family: 'Times New Roman'; /* Change font */
+  font-style: italic;
+  font-size: 1rem;
+  color: #ffffff; /* Text color */
+  resize: vertical;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #00000000;
+  color: rgb(255, 255, 255);
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 2rem;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.center-button {
+  text-align: center;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  padding: 20px;
+} 

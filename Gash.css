@@ -1,0 +1,70 @@
+/* Reset and base font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Times New Roman", serif;
+    background-color: #be6262;
+    overflow-x: hidden;
+  }
+  
+  /* Main container */
+  .doc-wrapper {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    padding: 5vw 10vw;
+    overflow: hidden;
+  }
+  
+  /* Background image */
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.15;
+    z-index: 0;
+  }
+  
+  /* Content layer */
+  .doc-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    background: transparent;
+  }
+  
+  /* Freeform background images */
+  .decor-image {
+    position: absolute;
+    z-index: 1; /* Behind the text */
+    opacity: 0.7;
+    pointer-events: none;
+    height: auto;
+    transition: all 0.3s ease-in-out;
+    object-fit: fill;
+  }
+  
+  /* Responsive font sizes */
+  @media (max-width: 768px) {
+    .doc-content {
+      font-size: 1rem;
+      padding: 0 1rem;
+    }
+  
+    .decor-image {
+      max-width: 60%;
+      opacity: 0.5;
+    }
+  }
+  
