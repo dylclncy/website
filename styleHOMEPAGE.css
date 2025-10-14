@@ -161,6 +161,14 @@ h2{
   margin: 0;
 }
 
+.Finn{
+  max-width: 20vw;
+  position: absolute;
+  left: 70vw;
+  top: -20vh;
+  margin: 0;
+}
+
 .Destijl{
   width: 800px;
 
@@ -292,6 +300,10 @@ pre{
     .Rage{
       max-width: 10vh;
       left: 10vw;
+    }
+    .Finn{
+      max-width: 10vh;
+      left: 70vw;
     }
 
     .gif   { position:absolute; top:12vh; left:10vw;  width:15vw; max-width:200px; }

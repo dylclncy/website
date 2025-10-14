@@ -19,6 +19,11 @@
     src: url(Scribble.ttf);
 }
 
+@font-face {
+    font-family: "Sacred";
+    src: url(Ritaglio.ttf);
+}
+
 body  {
     margin: 0;
     padding: 0;
@@ -54,9 +59,18 @@ h1{
         font-size: clamp(2rem, 7vw, 6.5rem);
         color: aliceblue;
         font-style: italic;
-        text-shadow: 1px 1px 2px black;
+        text-shadow: 1px 1px 2px black
 
 }
+
+.links h2, .links h3, .links h4, .links h5 {
+    margin: 0.2rem 0; /* very tight spacing */
+    position: relative;
+    top: 64vh;   /* move text up */
+    left: 2vh; 
+}
+
+
 h2{
     font-family:"MEMCARD";
     font-size: clamp(1rem, 3.6vw, 3rem);
@@ -70,7 +84,6 @@ text-shadow:
       0 0 40px rgb(95, 17, 17),
       0 0 80px rgb(121, 24, 27);
     padding: 20px;
-
 }
 
 
@@ -106,6 +119,14 @@ text-shadow:
 9px 9px 0 #444;
 }
 
+h5 {
+font-family: "Sacred";
+font-size: clamp(1rem, 3.6vw, 3rem);
+    color: rgb(205, 90, 125);
+    text-shadow: 2px 2px 4px rgb(109, 91, 210);
+
+}
+
 .Sandwich {
     position: absolute;
   top: 15.22%;
@@ -120,8 +141,8 @@ text-shadow:
 }
 .Destijl {
   position: absolute;
-  top: 60%;
-  left: 2%;
+  top: 90%;
+  left: 35%;
   width: 10%;  
 }
 
@@ -185,9 +206,14 @@ text-shadow:
         width: 80%;
     }
 
-    h1, h2, h3, h4 {
-        text-align: center;
+    .links h2, .links h3, .links h4, .links h5 {
+        margin: 0rem; /* very tight spacing */
+        position: relative;
+        top: 48vh;   /* move text up */
+        left: -11vh; 
     }
+    
+   
 
     pre {
         font-size: clamp(0.75rem, 3vw, 1rem);
