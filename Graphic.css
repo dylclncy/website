@@ -19,3 +19,58 @@ body {
     z-index: -1;
     pointer-events: none; /* allows clicks to pass through */
   }
+
+  pre{
+    font-family:'Times New Roman';
+    margin: auto;
+    font-weight: 10;
+    font-size: clamp(0.7rem, 2.5vw, 3rem);
+        color: rgb(0, 0, 0);
+        font-style: italic;
+        text-shadow: 2px 2px 4px rgb(255, 255, 255);
+        position: absolute;
+        left: 5vw;
+        top: 5vh;
+}
+
+  .Header {
+    position:absolute; 
+    top:0vh; 
+    left:60vw;  
+    width:50vw; 
+    max-width:650px;
+  }
+  .NovemberFifth{ position:absolute; top:55vh; left:3vw; max-width:400px; }
+  .WelcomeToBerlin{ position:absolute; top:55vh; left:37vw; max-width:400px; }
+  .reallybadshit{ position:absolute; top:55vh; left:70vw; max-width:400px; }
+  .FakeShow{ position:absolute; top:140vh; left:3vw; max-width:400px; }
+  .LunchRIP{ position:absolute; top:140vh; left:37vw; max-width:400px; }
+  .LunchGood{ position:absolute; top:140vh; left:70vw; max-width:400px; }
+  .LunchBad{ position:absolute; top:210vh; left:3vw; max-width:400px; }
+
+  @media screen and (max-width: 600px) {
+
+    .Header{
+      position: absolute;
+      top: 0vh;
+      left: 50vw;
+    }
+
+    pre{
+      position: absolute;
+      top: 5vh;
+      left: 3vw;
+    }
+    .NovemberFifth{ position:absolute; top:23vh; left:15vw; max-width:300px; }
+    .WelcomeToBerlin{ position:absolute; top:83vh; left:15vw; max-width:300px; }
+    .reallybadshit{ position:absolute; top:125vh; left:15vw; max-width: 300px; }
+    .FakeShow{ position:absolute; top:167vh; left:15vw; max-width:300px; }
+    .LunchRIP{ position:absolute; top:218vh; left:15vw; max-width:300px; }
+    .LunchGood{ position:absolute; top:260vh; left:15vw; max-width:300px; }
+    .LunchBad{ position:absolute; top:310vh; left:15vw; max-width:300px; }
+
+  }
+
+  .spacer {
+    height: 20000px;
+  }

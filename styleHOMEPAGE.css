@@ -146,9 +146,9 @@ h2{
 }
 
 .Under {
-  max-width: 100vw;
+  max-width: 10vw;
   position: absolute; 
-  left: 85vw; 
+  left: 90vw; 
   top: -20vh;  
   margin: 0; 
 }
@@ -166,6 +166,14 @@ h2{
   position: absolute;
   left: 70vw;
   top: -20vh;
+  margin: 0;
+}
+
+.Header{
+  max-width: 20vw;
+  position: absolute;
+  left: 5vw;
+  top: -10vh;
   margin: 0;
 }
 
